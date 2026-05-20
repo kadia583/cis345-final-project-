@@ -145,9 +145,9 @@ UPROGS=\
 	$U/_logstress\
 	$U/_forphan\
 	$U/_dorphan\
-        $U/_getprocs\
-        $U/_qlocktest\
-        $U/_semtest\
+    $U/_getprocs\
+    $U/_qlocktest\
+    $U/_semtest\
 	$U/_lotterytest\
 
 fs.img: mkfs/mkfs README $(UPROGS)
